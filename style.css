@@ -40,7 +40,7 @@ section{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
-.services .serv-content,
+.projects .serv-content,
 .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
@@ -266,6 +266,37 @@ canvas {
     background: none;
 }
 
+/* Project section styling */
+.proj-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.proj{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: #fff solid;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+}
+.proj_name{
+    margin: 5px;
+}
+.proj_link{
+    background-color: hsl(250,69%,61%);
+    color: white;
+    padding: 5px;
+    margin: -3px;
+}
+.proj_link p{
+    margin: auto;
+    width: 50%;
+}
+a{
+    color: inherit;
+}
 /* skills section styling */
 .skills{
     width: 100%;
@@ -548,7 +579,7 @@ footer span a:hover{
     .about .about-content .right{
         flex: 100%;
     }
-    .services .serv-content .card{
+    .projects .serv-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
@@ -599,7 +630,7 @@ footer span a:hover{
     .skillhead{
         font-size: 30px;
     }
-    .services .serv-content .card{
+    .projects .serv-content .card{
         width: 100%;
     }
 }
