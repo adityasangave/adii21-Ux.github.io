@@ -431,8 +431,8 @@ body .container .card .box .content a:hover {
 }
 
 .b-card {
-    width: 450px;
-    height: 500px;
+    width: 320px;
+    height: 280px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -469,7 +469,7 @@ body .container .card .box .content a:hover {
 }
 
 #b-card-1 {
-    background-color: #F7C8E0;
+    background-color: #FFF4D2;
 }
 
 #b-card-2 {
